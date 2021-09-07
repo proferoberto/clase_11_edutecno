@@ -1,0 +1,55 @@
+Trabajando sobre Ruby
+0) solicitar datos y imprimir datos en pantalla
+1) Variable
+2) Primitivas, Condicional, bucles(iteradores)
+3) Funciones (Metodos en POO)
+4) Algunos metodos que se trabajan en Ruby
+5) Arreglos y sus metodos (crear, como acceder y como operar sobre ellos)
+6) Hash y sus metodos (crear, como acceder y como operar sobre ellos)
+7) Programacion orientada a objectos Introduccion de terminos conceptuales
+8) Ejemplos de programacion orientada a objetos
+9) Trabajar administradores de objetos.
+
+===================================================
+0) 0) solicitar datos y imprimir datos en pantalla
+===================================================
+
+Ruby es un lenguaje de programacion orientados a objetos,
+que tiene como prioridad que el lenguaje sea semantico.
+Semantico: Significa que la sintaxis es mas parecida al lenguaje
+natural humano.
+
+Framework: Es conjunto de librerias disenadas para la realizacion de un fin especifico
+utilizando un lenguaje base.
+
+Framework: Sinatra y ruby on rails. se Desarrollaron entornos de trabajo para disenar aplicaciones.
+
+puts = Es un comando para imprimir en pantalla
+tipos de datos
+string = cadena
+boolean = true o false
+integer = El conjunto de los enteros
+float = El conjunto de valores decimales
+
+===========================================
+2) Primitivas, Condicional, bucles(iteradores)
+- condicionales si si entonces 
+- iteradores o bucles para mientras 
+
+3) Funciones: Es un tecnica que se implemento en la programacion para dividir o partir el problema en parte
+mas pequenas. Esto se diseno teniendo el cuenta el lema divide y venceras.
+Palabras de glosario
+-Procedimientos: Son conocidos como fragmentos de codigo que se ejecutan para desarrollar una funcionalidad del gran problema inicial
+Ademas nos sirven para reciclar funcionalidades para otros proyectos.
+    - Funciones
+    -Subrutinas 
+    -Metodos
+
+Parametros
+- parametros de entrada
+
+5) Arreglos y sus metodos (crear, como acceder y como operar sobre ellos)
+
+datos estructurados
+Las esctructura de datos, es un mecanismo en donde se puede almacenar varios datos a la vez
+Son estructuras de datos, las cuales se pueden acceder por un indice.
