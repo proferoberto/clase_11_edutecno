@@ -53,3 +53,16 @@ Parametros
 datos estructurados
 Las esctructura de datos, es un mecanismo en donde se puede almacenar varios datos a la vez
 Son estructuras de datos, las cuales se pueden acceder por un indice.
+
+6) Hash: Es una estrucutura de datos conocidad como coleccion de datos clave-valor
+en otros lenguajes de programacion esto se conoce como diccionario.
+
+Creando un hash vacio
+persona = {} 
+Creando un hash con informacion
+persona = {:nombre => "roberto", :edad => 36}
+persona = {nombre: "roberto", edad:  36}
+persona = {"nombre" => "roberto", "edad" => 36}
+
+accediendo a un key
+persona[:nombre]

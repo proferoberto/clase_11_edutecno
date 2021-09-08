@@ -234,18 +234,86 @@
 # n_integrantes = gets.chomp.to_i
 # puts "El calculo de ifc para #{year} es #{ifc_con_inflacion(year, n_integrantes)}"
 
+# def imprimir_arreglo(enfermeras)
+#     for i in (0...enfermeras.size)
+#         puts "El enfermero es #{enfermeras[i]}"
+#     end
+# end
+
+# def imprimir_arreglo2(enfermeras)
+#     (0...enfermeras.size).each do |enfermera|
+#         puts "El enfermero es #{enfermera}"
+#     end
+# end
 
 
+# def imprimir_arreglo3(enfermeras)
+#     i = 0
+#     while i < enfermeras.size
+#         puts "El enfermero es #{enfermeras[i]}"
+#         i = i + 1
+#     end
+# end
 
-
-def imprimir_arreglo(enfermeras)
-    for i in (0...enfermeras.size)
-        puts "El enfermero es #{enfermeras[i]}"
+def imprimir_arreglo4(enfermeras)
+    (0...enfermeras.size).each_with_index do |enfermera, index|
+        puts "El enfermero es #{enfermeras[index]}"
     end
 end
 
-enfermeras = ["ximena", "judith", "roberto", "carol"]
-imprimir_arreglo(enfermeras)
+# enfermeras = ["ximena", "judith", "roberto", "carol"]
+# imprimir_arreglo4(enfermeras)
+# enfermeras.push("mario")
 
+# puts "Este es el valor de: #{enfermeras}"
+# puts "Este es el valor de: #{enfermeras.first}"
+# puts "Este es el valor de: #{enfermeras.last}"
+
+# enfermeras.each do |elemento|
+#     puts "Esto contiene el elemento: #{elemento}"
+# end
+
+# edad = [15, 10, 10, 25, 22, 30]
+# puts "Arreglo ordenado#{edad.sort}"
+# puts "Tamano del arreglo #{edad.size}"
+# puts "elemento insertado en la posicion 2 #{edad.insert(2, 50)}"
+# puts " Esta es la clase #{edad.class}"
+# format_edad = edad.join('*')
+# puts format_edad
+# puts format_edad.class
+
+# puts "Imprimiendo edad #{edad}"
+# puts "Imprimiendo arreglo invertido #{edad.reverse}"
+# edad.delete(10)
+# puts "Eliminar elemento #{edad}"
+# edad.delete_at(0)
+# puts "Eliminar por indice #{edad}"
+
+# persona = {:nombre => "roberto", :edad => 36}
+# persona = {"nombre" => "roberto", :edad => 36}
+persona = {nombre: "roberto", edad:  36}
+puts "informacion de persona: #{persona[:nombre]}"
+puts "informacion de persona: #{persona[:edad]}"
+persona[:peso] = 75
+puts "informacion de persona: #{persona[:peso]}"
+
+persona.each do |k, v|
+    puts "Este es el key #{k} y este es el value #{v}"
+end
+
+puts "Este es el retorno de has_key #{persona.has_key?(:nombre)}"
+puts "Este es el retorno de has_key #{persona.has_key?(:fecha_nacimiento)}"
+persona.delete(:edad)
+puts "Este es hash #{persona}"
+puts "El hash esta vacio #{persona.empty?}"
+
+valores_persona = persona.map{ |k,v| v + 2 if v.class == Integer}
+puts "Imprimiendo valor personas #{valores_persona}"
+
+materias = {matematicas: 4, biologia: 2, fisica: 4.5, artes: 2.8 }
+
+aprobadas = materias.select{ |key,value| value > 3 }
+puts "Materias #{materias}"
+puts "Aprobadas #{aprobadas}"
 
 
