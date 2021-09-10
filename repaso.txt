@@ -66,3 +66,10 @@ persona = {"nombre" => "roberto", "edad" => 36}
 
 accediendo a un key
 persona[:nombre]
+
+7) 
+Representacion de los elementos de la realidad.
+Clases: Molde que tiene la definicion para la creacion de un objeto
+objeto: Creacion a partir de una clase con atributo propios, que lo diferencia de otros objetos del mismo tipo 
+atributos: Cualidades
+metodos: las acciones que va a desarrollar ese objeto
